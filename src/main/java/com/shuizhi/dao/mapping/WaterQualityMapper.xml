@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shuizhi.dao.WaterQualityMapper">
+    <resultMap id="BaseResultMap" type="com.shuizhi.model.WaterQuality">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="temp" property="temp" jdbcType="VARCHAR"/>
+        <result column="conductive" property="conductive" jdbcType="VARCHAR"/>
+        <result column="pH" property="ph" jdbcType="VARCHAR"/>
+        <result column="DO_concentration" property="doConcentration" jdbcType="VARCHAR"/>
+        <result column="turbidity" property="turbidity" jdbcType="VARCHAR"/>
+        <result column="voltage" property="voltage" jdbcType="VARCHAR"/>
+        <result column="nodeId" property="nodeid" jdbcType="VARCHAR"/>
+        <result column="downlinkData" property="downlinkdata" jdbcType="VARCHAR"/>
+        <result column="decodeData" property="decodedata" jdbcType="VARCHAR"/>
+        <result column="createdTime" property="createdtime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    <insert id="add">
+        insert into node_water_quality_history
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="temp != null">
+                temp,
+            </if>
+            <if test="conductive != null">
+                conductive,
+            </if>
+            <if test="ph != null">
+                pH,
+            </if>
+            <if test="doConcentration != null">
+                DO_concentration,
+            </if>
+            <if test="turbidity != null">
+                turbidity,
+            </if>
+            <if test="voltage != null">
+                voltage,
+            </if>
+
+            <if test="nodeid != null">
+                nodeId,
+            </if>
+            <if test="downlinkdata != null">
+                downlinkData,
+            </if>
+            <if test="decodedata != null">
+                decodeData,
+            </if>
+            <if test="createdtime != null">
+                createdTime,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="temp != null">
+                #{temp,jdbcType=VARCHAR},
+            </if>
+            <if test="conductive != null">
+                #{conductive,jdbcType=VARCHAR},
+            </if>
+            <if test="ph != null">
+                #{ph,jdbcType=VARCHAR},
+            </if>
+            <if test="doConcentration != null">
+                #{doConcentration,jdbcType=VARCHAR},
+            </if>
+            <if test="turbidity != null">
+                #{turbidity,jdbcType=VARCHAR},
+            </if>
+            <if test="voltage != null">
+                #{voltage,jdbcType=VARCHAR},
+            </if>
+            <if test="nodeid != null">
+                #{nodeid,jdbcType=VARCHAR},
+            </if>
+            <if test="downlinkdata != null">
+                #{downlinkdata,jdbcType=VARCHAR},
+            </if>
+            <if test="decodedata != null">
+                #{decodedata,jdbcType=VARCHAR},
+            </if>
+            <if test="createdtime != null">
+                #{createdtime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <select id="list" resultMap="BaseResultMap">
+        SELECT *
+        FROM node_water_quality_history
+        ORDER BY `createdTime` DESC
+                 LIMIT 20
+    </select>
+    <select id="getByNodeId" resultMap="BaseResultMap">
+        select *
+        from node_water_quality_history
+        where nodeid = #{nodeid}
+        ORDER BY `createdTime` DESC
+    </select>
+
+</mapper>

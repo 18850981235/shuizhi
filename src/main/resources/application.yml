@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  devtools:
+    restart:
+      enabled: true #热部署
+  datasource:
+    url: jdbc:mysql://112.124.200.22:3306/shuizhi?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true
+    username: root
+    password: 123456
+mybatis:
+  mapper-locations: classpath:com/shuizhi/dao/mapping/*.xml
