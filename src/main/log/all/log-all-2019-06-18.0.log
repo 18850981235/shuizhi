@@ -1,0 +1,160 @@
+2019-06-18 17:17:20.932 [main] INFO  com.shuizhi.ShuizhiApplication - Starting ShuizhiApplication on PC201811231606 with PID 9684 (started by Administrator in D:\物联网\水质解析\水质)
+2019-06-18 17:17:20.947 [main] INFO  com.shuizhi.ShuizhiApplication - No active profile set, falling back to default profiles: default
+2019-06-18 17:17:22.375 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-06-18 17:17:22.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:17:22.396 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 17:17:22.397 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 17:17:22.403 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-18 17:17:22.403 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-06-18 17:17:22.403 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-18 17:17:22.403 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-18 17:17:22.408 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-06-18 17:17:22.533 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-18 17:17:22.533 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1522 ms
+2019-06-18 17:17:23.228 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 17:17:23.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:17:23.588 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-06-18 17:17:23.591 [main] INFO  com.shuizhi.ShuizhiApplication - Started ShuizhiApplication in 3.851 seconds (JVM running for 5.123)
+2019-06-18 17:17:23.592 [main] INFO  com.shuizhi.config.ServerExecutor - 服务器已开启，端口：8111 已打开，等待连接......
+2019-06-18 17:17:29.408 [main] INFO  com.shuizhi.config.ServerExecutor - 用户：/192.168.1.191 连接成功！
+
+2019-06-18 17:17:43.510 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - crc:0
+2019-06-18 17:17:43.510 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质数据:41074e425f54455354230c2721012102d0cbe5
+2019-06-18 17:17:43.511 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质解析:长度不足
+2019-06-18 17:17:43.511 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 回复成功
+
+2019-06-18 17:18:20.598 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - crc:0
+2019-06-18 17:18:20.598 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质数据:41074e425f5445535423032721012102d0cbe5
+2019-06-18 17:18:20.598 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质解析:长度不足
+2019-06-18 17:18:20.599 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 回复成功
+
+2019-06-18 17:20:44.418 [main] INFO  com.shuizhi.ShuizhiApplication - Starting ShuizhiApplication on PC201811231606 with PID 5156 (started by Administrator in D:\物联网\水质解析\水质)
+2019-06-18 17:20:44.421 [main] INFO  com.shuizhi.ShuizhiApplication - No active profile set, falling back to default profiles: default
+2019-06-18 17:20:45.519 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-06-18 17:20:45.531 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:20:45.540 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 17:20:45.540 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 17:20:45.546 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-18 17:20:45.546 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-06-18 17:20:45.547 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-18 17:20:45.547 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-18 17:20:45.552 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-06-18 17:20:45.638 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-18 17:20:45.639 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1185 ms
+2019-06-18 17:20:46.004 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 17:20:46.218 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:20:46.238 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-06-18 17:20:46.241 [main] INFO  com.shuizhi.ShuizhiApplication - Started ShuizhiApplication in 2.142 seconds (JVM running for 2.762)
+2019-06-18 17:20:46.242 [main] INFO  com.shuizhi.config.ServerExecutor - 服务器已开启，端口：8111 已打开，等待连接......
+2019-06-18 17:20:55.494 [main] INFO  com.shuizhi.config.ServerExecutor - 用户：/192.168.1.191 连接成功！
+
+2019-06-18 17:20:57.662 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - crc:0
+2019-06-18 17:20:57.662 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质数据:41074e425f5445535423032721012102d0cbe5
+2019-06-18 17:20:57.662 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质解析:长度不足
+2019-06-18 17:20:57.663 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 回复成功
+
+2019-06-18 17:21:32.173 [main] INFO  com.shuizhi.ShuizhiApplication - Starting ShuizhiApplication on PC201811231606 with PID 6088 (started by Administrator in D:\物联网\水质解析\水质)
+2019-06-18 17:21:32.176 [main] INFO  com.shuizhi.ShuizhiApplication - No active profile set, falling back to default profiles: default
+2019-06-18 17:21:33.201 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-06-18 17:21:33.214 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:21:33.223 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 17:21:33.223 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 17:21:33.229 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-18 17:21:33.229 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-06-18 17:21:33.230 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-18 17:21:33.230 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-18 17:21:33.235 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-06-18 17:21:33.349 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-18 17:21:33.349 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1134 ms
+2019-06-18 17:21:33.780 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 17:21:34.058 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:21:34.084 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-06-18 17:21:34.087 [main] INFO  com.shuizhi.ShuizhiApplication - Started ShuizhiApplication in 2.281 seconds (JVM running for 4.366)
+2019-06-18 17:21:34.089 [main] INFO  com.shuizhi.config.ServerExecutor - 服务器已开启，端口：8111 已打开，等待连接......
+2019-06-18 17:21:48.118 [main] INFO  com.shuizhi.config.ServerExecutor - 用户：/192.168.1.191 连接成功！
+
+2019-06-18 17:24:29.736 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - crc:0
+2019-06-18 17:24:29.736 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质数据:41074e425f5445535423032721012102d0cbe5
+2019-06-18 17:24:29.737 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质解析:长度不足
+2019-06-18 17:24:29.737 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 回复成功
+
+2019-06-18 17:24:32.506 [main] INFO  com.shuizhi.ShuizhiApplication - Starting ShuizhiApplication on PC201811231606 with PID 9988 (started by Administrator in D:\物联网\水质解析\水质)
+2019-06-18 17:24:32.508 [main] INFO  com.shuizhi.ShuizhiApplication - No active profile set, falling back to default profiles: default
+2019-06-18 17:24:33.417 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-06-18 17:24:33.427 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:24:33.436 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 17:24:33.436 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 17:24:33.441 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-18 17:24:33.441 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-06-18 17:24:33.441 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-18 17:24:33.442 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-18 17:24:33.446 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-06-18 17:24:33.543 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-18 17:24:33.543 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 991 ms
+2019-06-18 17:24:33.912 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 17:24:34.136 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:24:34.157 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-06-18 17:24:34.160 [main] INFO  com.shuizhi.ShuizhiApplication - Started ShuizhiApplication in 2.035 seconds (JVM running for 2.639)
+2019-06-18 17:24:34.161 [main] INFO  com.shuizhi.config.ServerExecutor - 服务器已开启，端口：8111 已打开，等待连接......
+2019-06-18 17:24:44.389 [main] INFO  com.shuizhi.config.ServerExecutor - 用户：/192.168.1.191 连接成功！
+
+2019-06-18 17:24:46.244 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - crc:0
+2019-06-18 17:24:46.244 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质数据:41074e425f5445535423062721012102d0cbe5
+2019-06-18 17:24:46.245 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质解析:A 7 NB_TEST # 6 10017 289 720 
+2019-06-18 17:24:46.299 [pool-2-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-06-18 17:24:47.233 [pool-2-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-06-18 17:24:47.280 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 用户：/192.168.1.191断开连接!
+2019-06-18 17:26:05.635 [main] INFO  com.shuizhi.ShuizhiApplication - Starting ShuizhiApplication on PC201811231606 with PID 9424 (started by Administrator in D:\物联网\水质解析\水质)
+2019-06-18 17:26:05.637 [main] INFO  com.shuizhi.ShuizhiApplication - No active profile set, falling back to default profiles: default
+2019-06-18 17:26:06.782 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-06-18 17:26:06.796 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:26:06.811 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 17:26:06.811 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 17:26:06.819 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-18 17:26:06.819 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-06-18 17:26:06.820 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-18 17:26:06.822 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-18 17:26:06.832 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-06-18 17:26:06.995 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-18 17:26:06.996 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1324 ms
+2019-06-18 17:26:07.393 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 17:26:07.652 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:26:07.678 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-06-18 17:26:07.680 [main] INFO  com.shuizhi.ShuizhiApplication - Started ShuizhiApplication in 2.416 seconds (JVM running for 3.035)
+2019-06-18 17:26:07.681 [main] INFO  com.shuizhi.config.ServerExecutor - 服务器已开启，端口：8111 已打开，等待连接......
+2019-06-18 17:26:20.948 [main] INFO  com.shuizhi.config.ServerExecutor - 用户：/192.168.1.191 连接成功！
+
+2019-06-18 17:26:24.355 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - crc:0
+2019-06-18 17:26:24.355 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质数据:41074e425f5445535423062721012102d0cbe5
+2019-06-18 17:26:24.355 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质解析:A 7 NB_TEST # 6 10017 289 720 
+2019-06-18 17:26:24.382 [pool-2-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-06-18 17:26:24.505 [pool-2-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-06-18 17:26:24.601 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 回复成功
+
+2019-06-18 17:27:36.899 [main] INFO  com.shuizhi.ShuizhiApplication - Starting ShuizhiApplication on PC201811231606 with PID 9752 (started by Administrator in D:\物联网\水质解析\水质)
+2019-06-18 17:27:36.901 [main] INFO  com.shuizhi.ShuizhiApplication - No active profile set, falling back to default profiles: default
+2019-06-18 17:27:37.891 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-06-18 17:27:37.902 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:27:37.909 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-06-18 17:27:37.910 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 17:27:37.915 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-06-18 17:27:37.915 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-06-18 17:27:37.915 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-06-18 17:27:37.915 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-06-18 17:27:37.920 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-06-18 17:27:37.999 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-06-18 17:27:38.000 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 989 ms
+2019-06-18 17:27:38.356 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 17:27:38.526 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2019-06-18 17:27:38.601 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-06-18 17:27:38.604 [main] INFO  com.shuizhi.ShuizhiApplication - Started ShuizhiApplication in 2.019 seconds (JVM running for 2.636)
+2019-06-18 17:27:38.606 [main] INFO  com.shuizhi.config.ServerExecutor - 服务器已开启，端口：8111 已打开，等待连接......
+2019-06-18 17:27:46.780 [main] INFO  com.shuizhi.config.ServerExecutor - 用户：/192.168.1.191 连接成功！
+
+2019-06-18 17:27:48.258 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - crc:0
+2019-06-18 17:27:48.259 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质数据:41074e425f5445535423062721012102d0cbe5
+2019-06-18 17:27:48.259 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 水质解析:A 7 NB_TEST # 6 10017 289 720 
+2019-06-18 17:27:48.286 [pool-2-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-06-18 17:27:48.376 [pool-2-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-06-18 17:27:48.457 [pool-2-thread-1] INFO  com.shuizhi.config.ServerThread - 回复成功
+

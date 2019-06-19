@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shuizhi.dao.NodeMapper" >
+  <resultMap id="BaseResultMap" type="com.shuizhi.model.Node" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="nodeId" property="nodeid" jdbcType="VARCHAR" />
+    <result column="createdTime" property="createdtime" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="gatherSite" property="gathersite" jdbcType="VARCHAR" />
+    <result column="stack" property="stack" jdbcType="VARCHAR" />
+    <result column="node_equipment" property="nodeEquipment" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, nodeId, createdTime, status, gatherSite, stack, node_equipment
+  </sql>
+
+  <insert id="add"  >
+    insert into node
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="nodeid != null" >
+        nodeId,
+      </if>
+      <if test="createdtime != null" >
+        createdTime,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="gathersite != null" >
+        gatherSite,
+      </if>
+      <if test="stack != null" >
+        stack,
+      </if>
+      <if test="nodeEquipment != null" >
+        node_equipment,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="nodeid != null" >
+        #{nodeid,jdbcType=VARCHAR},
+      </if>
+      <if test="createdtime != null" >
+        #{createdtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="gathersite != null" >
+        #{gathersite,jdbcType=VARCHAR},
+      </if>
+      <if test="stack != null" >
+        #{stack,jdbcType=VARCHAR},
+      </if>
+      <if test="nodeEquipment != null" >
+        #{nodeEquipment,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="getByNodeId"  resultMap="BaseResultMap">
+      select  * from  node  where  nodeId=#{nodeId}
+  </select>
+
+  <select id="getList" resultMap="BaseResultMap">
+    SELECT * FROM node  ORDER BY `createdTime` DESC
+  </select>
+</mapper>
