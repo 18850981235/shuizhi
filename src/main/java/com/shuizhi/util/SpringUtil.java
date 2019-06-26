@@ -4,6 +4,8 @@ package com.shuizhi.util;
  * @author 李鹏熠
  * @create 2019/6/11 11:00
  */
+
+import com.shuizhi.service.impl.NodeServiceImpl;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -29,7 +31,9 @@ public final class SpringUtil implements ApplicationContextAware {
     }
 
     //通过class获取Bean.
-    public static <T> T getBean(Class<T> clazz){
+    public static <T> T getBean(Class<T> clazz) {
         return getApplicationContext().getBean(clazz);
     }
+
+
 }

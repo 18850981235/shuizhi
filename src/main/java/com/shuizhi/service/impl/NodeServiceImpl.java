@@ -15,7 +15,6 @@ public class NodeServiceImpl implements NodeService {
     @Autowired
     private NodeMapper nodeMapper;
 
-
     @Override
     public Node getNode(String nodeId){
         return nodeMapper.getByNodeId(nodeId);

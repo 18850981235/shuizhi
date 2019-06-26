@@ -8,5 +8,7 @@ spring:
     url: jdbc:mysql://localhost/shuizhi?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowMultiQueries=true
     username: root
     password: 123456
+  mvc:
+    static-path-pattern: /*
 mybatis:
   mapper-locations: classpath:com/shuizhi/dao/mapping/*.xml

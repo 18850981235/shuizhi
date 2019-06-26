@@ -57,13 +57,15 @@ public class ServerThread implements Runnable {
                 //logger.info("crc:" + crc);
                 logger.info("水质数据:" + str);
                 logger.info("水质解析:" + jiexi);
-                s = "回复成功\r\n";
-                out.write(s.getBytes("GBK"));
+
                 out.flush();
                 if (!jiexi.equals("长度不足")) {
                     add(jiexi, str);
+                    s = "4101002044";
+                    out.write(s.getBytes("GBK"));
+                    logger.info(s);
                 }
-                logger.info(s);
+
             }
             out.close();
             client.close();
