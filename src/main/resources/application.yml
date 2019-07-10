@@ -12,3 +12,6 @@ spring:
     static-path-pattern: /*
 mybatis:
   mapper-locations: classpath:com/shuizhi/dao/mapping/*.xml
+logging:
+  level:
+    com.shuizhi.dao: DEBUG

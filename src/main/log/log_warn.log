@@ -1,6 +1,5 @@
-2019-06-25 11:35:47.051 [http-nio-8888-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/sign.html
-2019-06-25 11:35:58.821 [http-nio-8888-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /sign.html
-2019-06-25 11:36:00.664 [http-nio-8888-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /sign.html
-2019-06-25 11:37:18.312 [http-nio-8888-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/sign.html
-2019-06-25 11:37:20.015 [http-nio-8888-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /static/sign.html
-2019-06-25 11:37:24.083 [http-nio-8888-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /sign.html
+2019-07-08 16:17:06.106 [main] WARN  org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2019-07-08 16:19:21.029 [main] WARN  org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2019-07-08 16:19:43.557 [main] WARN  org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2019-07-08 16:21:05.094 [main] WARN  org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2019-07-08 16:27:43.706 [main] WARN  org.apache.commons.httpclient.HttpMethodBase - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.

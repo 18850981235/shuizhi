@@ -31,4 +31,31 @@ public class WaterQualityServiceImpl implements WaterQualityService {
     public List<WaterQuality> getNodeId(String nodeId) {
         return waterQualityMapper.getByNodeId(nodeId);
     }
+
+
+    public List<WaterQuality> getId(int id) {
+        if (id != 0) {
+            switch (id) {
+                case 1:
+                    System.out.println("id为1");
+                    break;
+                case 2:
+                    System.out.println("id为2");
+                case 3:
+                    System.out.println("进入2  也进入3");
+                    break;
+                case 4:
+                    waterQualityMapper.list();
+                    break;
+                case 5:
+                    waterQualityMapper.getByNodeId("");
+                    break;
+                default:
+
+                    break;
+            }
+        }
+
+        return null;
+    }
 }

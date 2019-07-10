@@ -12,5 +12,6 @@ import java.util.List;
 public interface NodeMapper {
     int add(Node node);
     Node getByNodeId(String nodeId);
+    Node getByNodeId1(String nodeId);
     List<Node> getList();
 }

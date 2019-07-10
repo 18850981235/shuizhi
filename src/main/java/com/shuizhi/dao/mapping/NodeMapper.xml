@@ -8,7 +8,7 @@
     <result column="status" property="status" jdbcType="VARCHAR" />
     <result column="gatherSite" property="gathersite" jdbcType="VARCHAR" />
     <result column="stack" property="stack" jdbcType="VARCHAR" />
-    <result column="node_equipment" property="nodeEquipment" jdbcType="VARCHAR" />
+    <result column="node_equipment" property="nodeEquipment" jdbcType="VARCHAR"/>
   </resultMap>
 
   <sql id="Base_Column_List" >
@@ -61,7 +61,9 @@
   <select id="getByNodeId"  resultMap="BaseResultMap">
       select  * from  node  where  nodeId=#{nodeId}
   </select>
-
+  <select id="getByNodeId1"  resultType="com.shuizhi.model.Node">
+    select  * from  node  where  nodeId=#{nodeId}
+  </select>
   <select id="getList" resultMap="BaseResultMap">
     SELECT * FROM node  ORDER BY `createdTime` DESC
   </select>

@@ -17,6 +17,7 @@ public class WaterQualityController {
     @Autowired
     private WaterQualityService waterQualityService;
 
+
     @RequestMapping()
     @ResponseBody
     public String getList() {

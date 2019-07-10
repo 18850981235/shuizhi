@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shuizhi.dao.GatewayMapper" >
+  <resultMap id="BaseResultMap" type="com.shuizhi.model.Gateway" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="DevEUI" property="deveui" jdbcType="VARCHAR" />
+    <result column="remarks" property="remarks" jdbcType="VARCHAR" />
+    <result column="classc" property="classc" jdbcType="VARCHAR" />
+    <result column="appKey" property="appkey" jdbcType="VARCHAR" />
+    <result column="appSKey" property="appskey" jdbcType="VARCHAR" />
+    <result column="nwkSKey" property="nwkskey" jdbcType="VARCHAR" />
+    <result column="devAddr" property="devaddr" jdbcType="VARCHAR" />
+    <result column="manufacturer" property="manufacturer" jdbcType="VARCHAR" />
+    <result column="apply" property="apply" jdbcType="VARCHAR" />
+    <result column="APPEUI" property="appeui" jdbcType="VARCHAR" />
+    <result column="model" property="model" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="VARCHAR" />
+    <result column="report_frequency" property="reportFrequency" jdbcType="VARCHAR" />
+    <result column="net_type" property="netType" jdbcType="VARCHAR" />
+    <result column="net_time" property="netTime" jdbcType="TIMESTAMP" />
+    <result column="site" property="site" jdbcType="VARCHAR" />
+    <result column="longitude" property="longitude" jdbcType="VARCHAR" />
+    <result column="latitude" property="latitude" jdbcType="VARCHAR" />
+  </resultMap>
+  <delete id="deleteByDevEUI" parameterType="java.lang.Integer" >
+    delete from gateway
+    where DevEUI = #{deveui}
+  </delete>
+  <insert id="add"  >
+    insert into gateway
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="name != null" >
+        `name`,
+      </if>
+      <if test="deveui != null" >
+        DevEUI,
+      </if>
+      <if test="remarks != null" >
+        remarks,
+      </if>
+      <if test="classc != null" >
+        classc,
+      </if>
+      <if test="appkey != null" >
+        appKey,
+      </if>
+      <if test="appskey != null" >
+        appSKey,
+      </if>
+      <if test="nwkskey != null" >
+        nwkSKey,
+      </if>
+      <if test="devaddr != null" >
+        devAddr,
+      </if>
+      <if test="manufacturer != null" >
+        manufacturer,
+      </if>
+      <if test="apply != null" >
+        apply,
+      </if>
+      <if test="appeui != null" >
+        APPEUI,
+      </if>
+      <if test="model != null" >
+        model,
+      </if>
+      <if test="type != null" >
+        `type`,
+      </if>
+      <if test="reportFrequency != null" >
+        report_frequency,
+      </if>
+      <if test="netType != null" >
+        net_type,
+      </if>
+      <if test="netTime != null" >
+        net_time,
+      </if>
+      <if test="site != null" >
+        site,
+      </if>
+      <if test="longitude != null" >
+        longitude,
+      </if>
+      <if test="latitude != null" >
+        latitude,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="deveui != null" >
+        #{deveui,jdbcType=VARCHAR},
+      </if>
+      <if test="remarks != null" >
+        #{remarks,jdbcType=VARCHAR},
+      </if>
+      <if test="classc != null" >
+        #{classc,jdbcType=VARCHAR},
+      </if>
+      <if test="appkey != null" >
+        #{appkey,jdbcType=VARCHAR},
+      </if>
+      <if test="appskey != null" >
+        #{appskey,jdbcType=VARCHAR},
+      </if>
+      <if test="nwkskey != null" >
+        #{nwkskey,jdbcType=VARCHAR},
+      </if>
+      <if test="devaddr != null" >
+        #{devaddr,jdbcType=VARCHAR},
+      </if>
+      <if test="manufacturer != null" >
+        #{manufacturer,jdbcType=VARCHAR},
+      </if>
+      <if test="apply != null" >
+        #{apply,jdbcType=VARCHAR},
+      </if>
+      <if test="appeui != null" >
+        #{appeui,jdbcType=VARCHAR},
+      </if>
+      <if test="model != null" >
+        #{model,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="reportFrequency != null" >
+        #{reportFrequency,jdbcType=VARCHAR},
+      </if>
+      <if test="netType != null" >
+        #{netType,jdbcType=VARCHAR},
+      </if>
+      <if test="netTime != null" >
+        #{netTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="site != null" >
+        #{site,jdbcType=VARCHAR},
+      </if>
+      <if test="longitude != null" >
+        #{longitude,jdbcType=VARCHAR},
+      </if>
+      <if test="latitude != null" >
+        #{latitude,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>
